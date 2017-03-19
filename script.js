@@ -9,10 +9,10 @@ function dropdownStyles(select){
     
 }
 
-function name(event) {
+function name(event){
     
     var target = event.target;
-    if(target.tagName = "select") {
+    if(target.tagName = "select"){
         dropdownStyles(target);
     }
     
