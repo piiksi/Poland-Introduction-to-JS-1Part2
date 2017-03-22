@@ -9,7 +9,7 @@ function dropdownStyles(select) {
 
 }
 
-function name(event) {
+function wrapperClick(event) {
 
 	var target = event.target;
 	if (target.tagName = "select") {
@@ -17,4 +17,4 @@ function name(event) {
 	}
 }
 
-document.getElementById("wrapper").addEventListener('change', name);
+document.getElementById("wrapper").addEventListener('change', wrapperClick);
